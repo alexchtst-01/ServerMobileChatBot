@@ -1,0 +1,11 @@
+# virtual environtment
+.venv
+.env
+.venv/
+.env/
+
+# python chache
+__pycache__/
+
+# data folder
+data/
