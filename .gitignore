@@ -9,3 +9,7 @@ __pycache__/
 
 # data folder
 data/
+
+# testing file and folder
+*/test*
+test*
