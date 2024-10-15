@@ -14,12 +14,8 @@ class ChatBot:
             }],
             model=self.__model__
         )
-        
         return answer.choices
     
     def getAnswer(self, query):
         answers = self.generateText(query)
         return answers[0].message.content
-    
-    def getTopAnswer(self, query):
-        return self.getAnswer(query, 0).message
